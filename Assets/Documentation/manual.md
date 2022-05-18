@@ -6,7 +6,7 @@ Behaviours
 ----------
 -   \[`PlayerMovement`\]
 -   \[`Radar`\]
-
+-   \[`RadarContact`\]
 
 PlayerMovement
 ------------------------
@@ -101,3 +101,16 @@ Instantiates and adds the radar objects to the tracked objects.
     }
 }
 ```  
+RadarContact
+------------------------
+This behaviour allows the an object to be displayed on the Radar, although it will not work with the above script.
+    
+### Script    
+Using the layer we created that tells our second camera what to look at, we can get objects with the radarcontact script to appear on the radar
+    
+```    
+private void Start()
+    {
+        gameObject.layer = LayerMask.NameToLayer("Radar");
+    }
+```   
