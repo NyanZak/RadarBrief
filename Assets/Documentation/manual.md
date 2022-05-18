@@ -29,7 +29,8 @@ In our uupdate function we get the Horizontal and Vertical inputs, since we dont
         movementDirection.Normalize();
 
         transform.Translate(movementDirection * speed * Time.deltaTime, Space.World);
-        
+ }
+}     
         
 ```      
 
