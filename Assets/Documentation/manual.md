@@ -6,7 +6,7 @@ Behaviours
 ----------
 -   \[`PlayerMovement`\]
 -   \[`Radar`\]
-
+-   \[`RadarContact`\]
 
 PlayerMovement
 ------------------------
